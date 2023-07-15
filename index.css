@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap');
+
+body {
+    margin: 0;
+    background-color: #1F2937;
+    max-width: 500px;
+    max-height: 500px;
+    border: 5px single white;
+    padding: 50px 50px;
+}
+
+h1:nth-child(1) {
+    color: #FFFFFF;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+h1:nth-child(2) {
+    color: #4ADF86;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button {
+    display: inline-flex;
+    width: 222px;
+    margin-top: 20px;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+div:nth-child(4) {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #2F3E53;
+    margin: 20px
+}
+
+label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 8px;
+    width: 211px;
+    height: 30px;
+    flex-shrink: 0;
+    font-family: Inter;
+    border-radius: 6px;
+    background: #273549;
+    color: #55F991;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
